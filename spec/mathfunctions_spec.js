@@ -20,3 +20,14 @@ describe("subtract", function() {
 
 });
 
+
+describe("multiply", function() {
+  var result;
+ 
+
+  it("should multiply a and b", function() {
+    result = multiply(3,2);
+    expect(result).toBe(6);
+ });
+
+});
