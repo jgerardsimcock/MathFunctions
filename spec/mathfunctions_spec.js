@@ -78,3 +78,13 @@ describe("test_subtract_1", function() {
  });
 
 });
+
+describe("test_subtract_2", function() {
+  var result;
+
+  it("should subtract one number from another", function() {
+    result = test_subtract_2();
+    expect(result).toBe(2);
+ });
+
+});
