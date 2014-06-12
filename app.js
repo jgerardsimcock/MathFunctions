@@ -67,12 +67,24 @@ alert(power(4,4));
     }
   };*/
 
-function test_subtract_1(){
+/*function test_subtract_1(){
   var x = 5;
   var y = 4;
   var q = function(){
     subtract(x,y);
   }
+}*/
+
+function test_subtract_2(){
+  var x = 5;
+  var y = 4;
+  var z = 3;
+  var q = function(){
+    subtract(x,y);
+  }
+  return q - z;
 }
+
+console.log(test_subtract_2);
 
 
