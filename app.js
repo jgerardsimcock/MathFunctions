@@ -8,5 +8,5 @@ function subtract(op1, op2) {
 }
 
 function multiply(a,b) {
-  return a;
+  return a*b;
 }
