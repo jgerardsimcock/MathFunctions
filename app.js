@@ -27,5 +27,13 @@ function power(b, a) {
 function test_add_1() {
     var x = 5;
     var y = 4;
-    return(x,y)
+    return add(x,y)
+}
+
+function test_add_2() {
+ var x = 5;
+ var y = 4; 
+ var z = 3;
+ var q = add(x,y);
+ return 
 }

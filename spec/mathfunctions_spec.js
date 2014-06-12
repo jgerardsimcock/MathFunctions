@@ -58,3 +58,13 @@ describe("test_add_1", function() {
  });
 
 });
+
+describe("test_add_2", function() {
+  var result;
+
+  it("should add two variables then add result from third", function() {
+    result = test_add_2(z,q);
+    expect(result).toBe(z + q);
+ });
+
+});
