@@ -41,6 +41,6 @@ function test_add_2() {
 function test_subtract_1(){
   var x = 5;
   var y = 4;
-  var q = subtract(;  
+  var q = subtract(x,y);  
   return q;   
 }
