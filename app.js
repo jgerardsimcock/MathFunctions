@@ -32,8 +32,15 @@ function test_add_1() {
 
 function test_add_2() {
  var x = 5;
- var y = 4; 
+ var y = 4;
  var z = 3;
  var q = add(x,y);
- return 
+ return z + q;
+}
+
+function test_subtract_1(){
+  var x = 5;
+  var y = 4;
+  var q = subtract(;  
+  return q;   
 }

@@ -63,8 +63,18 @@ describe("test_add_2", function() {
   var result;
 
   it("should add two variables then add result from third", function() {
-    result = test_add_2(z,q);
-    expect(result).toBe(z + q);
+    result = test_add_2();
+    expect(result).toBe(12);
+ });
+
+});
+
+describe("test_subtract_1", function() {
+  var result;
+
+  it("should subtract one number from another", function() {
+    result = test_subtract_1();
+    expect(result).toBe(1);
  });
 
 });
