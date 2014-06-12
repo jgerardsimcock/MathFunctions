@@ -17,8 +17,8 @@ function divide(a,b){
 
 function power(b, a) {
 
-  var result = 
-  for (var i = 0; i < a; i) 
+  var result = 1
+  for (var i = 0; i < a; i++) 
          result *= b;
   return result;
   
