@@ -8,3 +8,15 @@ describe("add", function() {
  });
 
 });
+
+describe("subtract", function() {
+  var result;
+ 
+
+  it("should add subtract op2 from op1", function() {
+    result = subtract(3,2);
+    expect(result).toBe(1);
+ });
+
+});
+
