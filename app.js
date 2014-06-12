@@ -77,15 +77,17 @@ function test_subtract_1(){
   var q = subtract(x,y);  
   return q;   
 }
+console.log(test_subtract_1());
 
 function test_subtract_2(){
   var x = 5;
   var y = 4;
   var z = 3;
   var q = subtract(x,y);
-  return q - z;
+  return z-q;
 }
 
+console.log(test_subtract_2());
 
 var mul10 = multiply(
                       multiply(
