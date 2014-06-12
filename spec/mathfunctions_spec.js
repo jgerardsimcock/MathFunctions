@@ -29,7 +29,7 @@ describe("multiply", function() {
 
 });
 
-describe("describe", function() {
+describe("divide", function() {
   var result;
 
   it("should divide a by b", function() {
@@ -38,3 +38,14 @@ describe("describe", function() {
  });
 
 });
+
+describe("power", function() {
+  var result;
+
+  it("should raise a base by the exponent", function() {
+    result = power(3,3);
+    expect(result).toBe(27);
+ });
+
+});
+
