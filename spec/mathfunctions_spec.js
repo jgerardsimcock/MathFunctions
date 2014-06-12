@@ -49,3 +49,12 @@ describe("power", function() {
 
 });
 
+describe("test_add_1", function() {
+  var result;
+
+  it("should add two variables ", function() {
+    result = test_add_1(5,4);
+    expect(result).toBe(9);
+ });
+
+});

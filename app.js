@@ -23,3 +23,9 @@ function power(b, a) {
   return result;
   
 }
+
+function test_add_1() {
+    var x = 5;
+    var y = 4;
+    return(x,y)
+}
