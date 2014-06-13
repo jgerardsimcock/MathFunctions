@@ -50,5 +50,22 @@ function test_subtract_2(){
   var y = 4;
   var z = 3;
   var q = subtract(x,y);
-  return z-q;
+  return z - q;
 }
+
++var mul10 = multiply(
+ +                      multiply(
+ +                                add(1,2),
+ +                                subtract(8,4)
+ +                                ), 
+ +                      multiply(
+ +                                add(
+ +                                    test_add_1(), 
+ +                                    test_subtract_1()
+ +                                    ), 
+ +                                subtract(
+ +                                      test_add_2(), 
+ +                                      test_subtract_2()
+ +                                    )
+ +                                )
+ +                      );

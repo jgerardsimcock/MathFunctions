@@ -88,3 +88,13 @@ describe("test_subtract_2", function() {
  });
 
 });
+
+describe("Mul 10", function() {
+  var result;
+
+  it("Should nest multiple functions", function() {
+    result = mul10();
+    expect(result).toBe(1200);
+ });
+
+});
